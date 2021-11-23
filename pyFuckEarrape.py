@@ -3,7 +3,7 @@ import sounddevice as sd
 import string, os, random, configparser
 from os.path import exists
 import time as t
-userconfig = "/tmp/." + str(os.getlogin())+ "-pyFuckEarrape.cfg"
+userconfig = "/tmp/." + str(os.getlogin())+ "-pyNoEarHurtingVolume.cfg"
 f = open(userconfig, "a")
 f.close()
 config = configparser.RawConfigParser()
@@ -37,7 +37,7 @@ def audio_callback(indata, frames, time, status):
                  configfile.close
 
 stream = sd.InputStream(callback=audio_callback)
-print("pyFuckEarrape started.")
+print("pyNoEarHurtingVolume started.")
 while True:
     stream = sd.InputStream(callback=audio_callback)
     with stream:
