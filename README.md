@@ -1,5 +1,5 @@
 # pyNoEarHurtingVolume
-Fuck you earrape (This python script kills ear hurting volumes before it has time to shoot your eardrums and kill them)
+Screw you earrape (This python script kills ear hurting volumes before it has time to shoot your eardrums and kill them)
 
 How to use:
 
